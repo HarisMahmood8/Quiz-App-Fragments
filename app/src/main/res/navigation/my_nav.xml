@@ -8,10 +8,45 @@
         android:id="@+id/firstFragment"
         android:name="com.example.myquizapp_bk.FirstFragment"
         android:label="fragment_first"
-        tools:layout="@layout/fragment_first" />
+        tools:layout="@layout/fragment_first" >
+        <action
+            android:id="@+id/action_firstFragment_to_secondFragment"
+            app:destination="@id/secondFragment" />
+    </fragment>
     <fragment
         android:id="@+id/secondFragment"
         android:name="com.example.myquizapp_bk.SecondFragment"
         android:label="fragment_second"
-        tools:layout="@layout/fragment_second" />
+        tools:layout="@layout/fragment_second" >
+        <action
+            android:id="@+id/action_secondFragment_to_thirdfragment"
+            app:destination="@id/thirdfragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/thirdfragment"
+        android:name="com.example.myquizapp_bk.thirdfragment"
+        android:label="fragment_thirdfragment"
+        tools:layout="@layout/fragment_thirdfragment" >
+        <action
+            android:id="@+id/action_thirdfragment_to_fourthfragment"
+            app:destination="@id/fourthfragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fourthfragment"
+        android:name="com.example.myquizapp_bk.fourthfragment"
+        android:label="fragment_fourthfragment"
+        tools:layout="@layout/fragment_fourthfragment" >
+        <action
+            android:id="@+id/action_fourthfragment_to_fifthfragment"
+            app:destination="@id/fifthfragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fifthfragment"
+        android:name="com.example.myquizapp_bk.fifthfragment"
+        android:label="fragment_fifthfragment"
+        tools:layout="@layout/fragment_fifthfragment" >
+        <action
+            android:id="@+id/action_fifthfragment_to_firstFragment"
+            app:destination="@id/firstFragment" />
+    </fragment>
 </navigation>

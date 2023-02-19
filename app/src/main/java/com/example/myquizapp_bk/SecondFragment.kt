@@ -6,10 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.Toast
 
 class SecondFragment : Fragment() {
-
     override fun onCreateView(
+
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
@@ -17,10 +18,26 @@ class SecondFragment : Fragment() {
         val view =  inflater.inflate(R.layout.fragment_second, container, false)
         val prevBtn : Button = view.findViewById(R.id.prev)
         prevBtn.setOnClickListener {
-            val fragment = FirstFragment()
+            val fragment = thirdfragment()
             val transaction = fragmentManager?.beginTransaction()
             transaction?.replace(R.id.nav_container, fragment)?.commit()
         }
+
+       val Truebuttn2 : Button = view.findViewById(R.id.buttontrue2)
+       Truebuttn2.setOnClickListener {
+           val toast2t = Toast.makeText(this@SecondFragment.requireActivity(), "Correct!! Good Job", Toast.LENGTH_SHORT).show()
+       }
+
+        val Falsebuttn2 : Button = view.findViewById(R.id.buttonfalse2)
+        Falsebuttn2.setOnClickListener {
+            val toast2f = Toast.makeText(this@SecondFragment.requireActivity(), "Wrong!! Try again", Toast.LENGTH_SHORT).show()
+        }
+
+        Toast.makeText(this@SecondFragment.requireActivity(), "Good luck!!!!", Toast.LENGTH_SHORT).show() //
+
         return view
     }
+
+
+
 }

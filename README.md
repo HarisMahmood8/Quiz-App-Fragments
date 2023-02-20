@@ -1,10 +1,10 @@
-[Video of app running](https://drive.google.com/file/d/1jjSvw9UTCUhcqa-IEGSoB3zfoqbW1x5i/view?usp=sharing)
+[VIDEO OF APP RUNNING](https://drive.google.com/file/d/1jjSvw9UTCUhcqa-IEGSoB3zfoqbW1x5i/view?usp=sharing)
 
 
 Architecture Diagram Highlighting MVC Pattern
 
+![MVC_PATTERN](https://user-images.githubusercontent.com/114548524/219991069-d7260a2b-2182-42c7-8a70-d5999bf03842.png)
 
-![flow_diagram](https://user-images.githubusercontent.com/114548524/219990005-2a52b4c5-2b06-4352-9b57-f9cff746091b.png)
 
 First Attempt App Flow Diagram
 

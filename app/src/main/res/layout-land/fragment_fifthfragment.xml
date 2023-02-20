@@ -5,55 +5,41 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".SecondFragment"
-    android:background="#009688">
+    android:background="#FFC107">
 
     <TextView
-        android:layout_width="399dp"
-        android:layout_height="133dp"
-        android:layout_marginTop="88dp"
-        android:text="@string/mars_is_the_biggest_planet_in_our_solar_system"
+        android:layout_width="708dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/congratulations_you_have_completed_the_quiz"
         android:textSize="36dp"
         android:textStyle="bold"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.695"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/third"
+        android:id="@+id/fifth"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="224dp"
-        android:text="@string/next_question_3"
+        android:layout_marginBottom="72dp"
         android:backgroundTint="@color/black"
+        android:text="@string/restart"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
     <Button
-        android:id="@+id/buttontrue3"
+        android:id="@+id/buttontruefinl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        android:text="@string/True_"
-
-        android:backgroundTint="#00FF00"
-        app:layout_constraintBottom_toTopOf="@+id/third"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:text="@string/click_here_to_reveal_answers"
+        app:layout_constraintBottom_toTopOf="@+id/fifth"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/buttonfalse3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="@string/False_"
-        android:backgroundTint="#FF0000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/third" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

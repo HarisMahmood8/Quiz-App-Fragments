@@ -24,15 +24,15 @@ class thirdfragment : Fragment() {
         }
         val Truebuttn3 : Button = view.findViewById(R.id.buttontrue3)
         Truebuttn3.setOnClickListener {
-            val toast3t = Toast.makeText(this@thirdfragment.requireActivity(), "Wrong!! Try Again", Toast.LENGTH_SHORT).show()
+            val toast3t = Toast.makeText(this@thirdfragment.requireActivity(), R.string.Wrong, Toast.LENGTH_SHORT).show()
         }
 
         val Falsebuttn3 : Button = view.findViewById(R.id.buttonfalse3)
         Falsebuttn3.setOnClickListener {
-            val toast3f = Toast.makeText(this@thirdfragment.requireActivity(), "Correct!! Good Job", Toast.LENGTH_SHORT).show()
+            val toast3f = Toast.makeText(this@thirdfragment.requireActivity(), R.string.Correct, Toast.LENGTH_SHORT).show()
         }
 
-        Toast.makeText(this@thirdfragment.requireActivity(), "Question 2", Toast.LENGTH_SHORT).show() //
+        Toast.makeText(this@thirdfragment.requireActivity(), getString(R.string.Question2), Toast.LENGTH_SHORT).show() //
 
         return view
     }

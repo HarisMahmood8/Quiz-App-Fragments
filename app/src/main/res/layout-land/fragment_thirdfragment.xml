@@ -8,26 +8,25 @@
     android:background="#009688">
 
     <TextView
-        android:layout_width="399dp"
-        android:layout_height="133dp"
-        android:layout_marginTop="88dp"
+        android:layout_width="445dp"
+        android:layout_height="123dp"
         android:text="@string/mars_is_the_biggest_planet_in_our_solar_system"
         android:textSize="36dp"
         android:textStyle="bold"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055" />
 
     <Button
         android:id="@+id/third"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="224dp"
-        android:text="@string/next_question_3"
+        android:layout_marginBottom="88dp"
         android:backgroundTint="@color/black"
+        android:text="@string/next_question_3"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 

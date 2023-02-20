@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Myquizapp_bk</string>
+    <string name="question_text">Canberra è la capitale dell\'Australia.</string>
+    <string name="true_button">Vero</string>
+    <string name="false_button">Falso</string>
+    <string name="hello_blank_fragment">Ciao frammento vuoto</string>
+    <string name="mars_is_the_biggest_planet_in_our_solar_system">Marte è il pianeta più grande del nostro sistema solare</string>
+    <string name="next_question_3">Avanti - Domanda 3</string>
+    <string name="welcome_to_the_quiz">Benvenuti al Quiz</string>
+    <string name="click_here_to_continue">Clicca qui per continuare</string>
+    <string name="True_">Vero</string>
+    <string name="False_">Falso</string>
+    <string name="russia_is_the_largest_country_in_the_world">La Russia è il paese più grande del mondo</string>
+    <string name="submit">Invia</string>
+    <string name="restart">Ricomincia</string>
+    <string name="click_here_to_reveal_answers">Clicca qui per rivelare le risposte</string>
+    <string name="congratulations_you_have_completed_the_quiz">Congratulazioni, hai completato il quiz</string>
+    <string name="Correct">Corretto!! Buon lavoro</string>
+    <string name="Wrong">Sbagliato!! Riprova</string>
+    <string name="Next">Buona fortuna!!!!</string>
+    <string name="question3">Domanda 3</string>
+    <string name="there_are_7_continents_in_the_world">Ci sono 7 continenti nel mondo</string>
+    <string name="next_question_2">Avanti - Domanda 2</string>
+    <string name="Question2">Domanda 2</string>
+
+
+</resources>

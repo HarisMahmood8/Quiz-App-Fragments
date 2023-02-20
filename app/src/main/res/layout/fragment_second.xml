@@ -10,8 +10,8 @@
     <TextView
         android:layout_width="411dp"
         android:layout_height="93dp"
-        android:layout_marginTop="104dp"
-        android:text="There are 7 continents in the world"
+        android:layout_marginTop="116dp"
+        android:text="@string/there_are_7_continents_in_the_world"
         android:textSize="36dp"
         android:textStyle="bold"
         app:layout_constraintHorizontal_bias="1.0"
@@ -24,12 +24,11 @@
         android:id="@+id/prev"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="224dp"
-        android:text="Next - Question 2"
-
+        android:layout_marginBottom="340dp"
         android:backgroundTint="@color/black"
+
+        android:text="@string/next_question_2"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
@@ -38,7 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        android:text="True"
+        android:text="@string/True_"
 
         android:backgroundTint="#00FF00"
         app:layout_constraintBottom_toTopOf="@+id/prev"
@@ -51,7 +50,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="False"
+        android:text="@string/False_"
 
         android:backgroundTint="#FF0000"
         app:layout_constraintEnd_toEndOf="parent"

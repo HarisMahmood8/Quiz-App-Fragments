@@ -3,7 +3,26 @@
     <string name="question_text">Canberra is the capital of Australia.</string>
     <string name="true_button">True</string>
     <string name="false_button">False</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mars_is_the_biggest_planet_in_our_solar_system">Mars is the biggest planet in our solar system</string>
+    <string name="next_question_3">Next - Question 3</string>
+    <string name="welcome_to_the_quiz">Welcome to the Quiz</string>
+    <string name="click_here_to_continue">Click here to continue</string>
+    <string name="True_">True</string>
+    <string name="False_">False</string>
+    <string name="russia_is_the_largest_country_in_the_world">Russia is the largest country in the world</string>
+    <string name="submit">Submit</string>
+    <string name="restart">Restart</string>
+    <string name="click_here_to_reveal_answers">Click Here to reveal answers</string>
+    <string name="congratulations_you_have_completed_the_quiz">Congratulations, You Have Completed the Quiz</string>
+    <string name="Correct">Correct!! Good Job</string>
+    <string name="Wrong">Wrong!! Try again</string>
+    <string name="Next">Good luck!!!!</string>
+    <string name="question3">Question 3</string>
+    <string name="there_are_7_continents_in_the_world">There are 7 continents in the world</string>
+    <string name="next_question_2">Next - Question 2</string>
+    <string name="Question2">Question 2</string>
+
 
 </resources>

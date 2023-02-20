@@ -14,4 +14,5 @@ First Attempt App Flow Diagram
 
 Final(Current) App Flow Diagram
 
-![second-nav](https://user-images.githubusercontent.com/114548524/219990069-3614b39a-d466-4fc6-b95f-cd820a794c4b.png)
+![image](https://user-images.githubusercontent.com/114548524/220003246-0f175f76-296c-474c-9812-28fc64d98640.png)
+

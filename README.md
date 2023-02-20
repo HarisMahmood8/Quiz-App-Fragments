@@ -16,3 +16,5 @@ Final(Current) App Flow Diagram
 
 ![image](https://user-images.githubusercontent.com/114548524/220003246-0f175f76-296c-474c-9812-28fc64d98640.png)
 
+App is compatible with landscape mode and includes translation in Italian
+

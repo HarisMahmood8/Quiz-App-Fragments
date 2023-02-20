@@ -1,4 +1,4 @@
-[CLICK HERE TO SEE A VIDEO OF THE APP RUNNING](https://drive.google.com/file/d/1jjSvw9UTCUhcqa-IEGSoB3zfoqbW1x5i/view?usp=sharing)
+[**CLICK HERE TO SEE A VIDEO OF THE APP RUNNING**](https://drive.google.com/file/d/1jjSvw9UTCUhcqa-IEGSoB3zfoqbW1x5i/view?usp=sharing)
 
 
 Architecture Diagram Highlighting MVC Pattern
